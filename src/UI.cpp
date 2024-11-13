@@ -1,7 +1,7 @@
 #include <ros/ros.h>
 #include <geometry_msgs/Twist.h>
 #include <iostream>
-
+#include <turtlesim/Spawn.h>
 
 
 
@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
     {
     
     std::string turtle;
-    float lin_vel, ang:vel;
+    float lin_vel, ang_vel;
     std::cout<<"choose turtle (1 or 2): ";
     std::cin>> turtle;
     std::cout<<"Enter linear velocity:";
