@@ -24,8 +24,8 @@ int main(int argc, char** argv) {
     
     turtlesim::Spawn spawn_srv;
     spawn_srv.request.name = "turtle2";  // specify the name of the new turtle
-    spawn_srv.request.x = 5;
-    spawn_srv.request.y = 5;
+    spawn_srv.request.x = 2;
+    spawn_srv.request.y = 2;
     spawn_srv.request.theta = 0;
     
     // Call the spawn service directly
