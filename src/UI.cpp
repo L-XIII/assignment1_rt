@@ -36,6 +36,10 @@ int main(int argc, char** argv) {
         ROS_ERROR("Failed to call service spawn");
     }
     
+    
+    
+    ros::Rate rate(10);  // 10 Hz
+    
     while (ros::ok())
     {
     
